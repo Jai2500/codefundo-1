@@ -69,7 +69,11 @@ class Users(models.Model):
     }
 }
 ```
+HUB's Home Page
 ![HUB Home](/Images/home.png)
+HUB Registration Page for Merchants
 ![HUB Registration](/Images/registration.png)
+HUB Contact Us Page
 ![HUB Contact Page](Images/contact.png)
+HUB Dashboard
 ![HUB User Dashboard](/Images/dashboard.png)
