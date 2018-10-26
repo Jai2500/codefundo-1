@@ -69,4 +69,7 @@ class Users(models.Model):
     }
 }
 ```
-
+![GitHub Logo](/images/home.png)
+![GitHub Logo](/images/registration.png)
+![GitHub Logo](/images/contact.png)
+![GitHub Logo](/images/dashboard.png)
