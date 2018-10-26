@@ -71,5 +71,5 @@ class Users(models.Model):
 ```
 ![HUB Home](/Images/home.png)
 ![HUB Registration](/Images/registration.png)
-![HUB Contact Page]Images/contact.png)
+![HUB Contact Page](Images/contact.png)
 ![HUB User Dashboard](/Images/dashboard.png)
