@@ -32,8 +32,7 @@ This allows the model to identify humans in the image whether they are near the 
 - A simple HTML file is created that calls the Bing Maps API and uses its inbuilt tools to pinpoint people's locations on the map.
 - An Ajax styled implementation will also be able to support real time tracking of the people in the affected regions.
 - A sample code implementing the above
-```
-HTML
+``` HTML
 <!DOCTYPE html>
 <html>
 <head>
