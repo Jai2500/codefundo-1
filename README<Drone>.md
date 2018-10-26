@@ -1,6 +1,6 @@
 # Drone Documentation
 
-### Implementation of Recognition Model
+## Implementation of Recognition Model
 
 - The current model for human recognition(which will be used to process images sent by the drone), on Azure, works at 64% precision and 41% Mean Average Precision(mAP). 
 - It is implemented by training the model with images of people from previous natural disasters. It broadly classifies people based on their apparent size and orientation in the image as :-
@@ -25,7 +25,7 @@ This allows the model to identify humans in the image whether they are near the 
   - Hurricane Harvey Induced Flooding (2017)
 - The model is also capable of recognizing make-shift rafts and damaged cars.
 
-### Implementation of the Mapping System
+## Implementation of the Mapping System
 
 - The mapping system is based on the Bing Maps API for Enterprices(provided by Azure), which uses the information from the drone and the Custom Vision model(Human Recognition Model), to provide a visual representation of people's locations on a map of the affected area.
 - The file containing information supplied by the drone is of the GeoJson filetype, which is one of the best formats for processing geo-spatial data. 
