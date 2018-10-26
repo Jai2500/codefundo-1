@@ -11,7 +11,7 @@
   - Small:
     - Front facing
     - Back facing
-    - Side facing
+    - Side facing <br >
 This allows the model to identify humans in the image whether they are near the drone or far away. 
 - Maximum accuracy has been achieved when a person is facing the drone, while the model has lesser precision when the person is oriented with their back to the drone's camera.
 - The model has been trained with 169 images from:
@@ -31,7 +31,7 @@ This allows the model to identify humans in the image whether they are near the 
 - The file containing information supplied by the drone is of the GeoJson filetype, which is one of the best formats for processing geo-spatial data. 
 - A simple HTML file is created that calls the Bing Maps API and uses its inbuilt tools to pinpoint people's locations on the map.
 - An Ajax styled implementation will also be able to support real time tracking of the people in the affected regions.
-- The above can be implemented very easily on Bings API by running the below code in a browser and dragging and dropping the GeoJson file 
+- The above can be implemented very easily on Bings API by running the below code in a browser and dragging and dropping the GeoJson file onto the map shown on the browser
 ``` HTML
 <!DOCTYPE html>
 <html>
@@ -42,7 +42,7 @@ This allows the model to identify humans in the image whether they are near the 
     var map;
     function GetMap() {
         map = new Microsoft.Maps.Map('#myMap', {
-            zoom: 1vvrsptB0CFs1djE
+            zoom: 1
         });
         //Load the GeoJSON module.
         Microsoft.Maps.loadModule('Microsoft.Maps.GeoJson', function () {
