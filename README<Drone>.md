@@ -84,6 +84,8 @@ This allows the model to identify humans in the image whether they are near the 
 </html>
 ```
 
+![ScreenShot-1](Images/Screenshot 2018-10-26 at 7.57.27 PM?raw=true "Title")
+
 
 
 ### Implementation of the Drone(Physically)
