@@ -84,8 +84,9 @@ This allows the model to identify humans in the image whether they are near the 
 </html>
 ```
 
+## Screenshots of Maps Implementation
 ![ScreenShot-1](Images/S1.png?raw=true "Title")
-
+![ScreenShot-2](Images/S2.png?raw=true "Title")
 
 
 ### Implementation of the Drone(Physically)
