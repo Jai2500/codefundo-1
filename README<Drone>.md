@@ -31,7 +31,7 @@ This allows the model to identify humans in the image whether they are near the 
 - The file containing information supplied by the drone is of the GeoJson filetype, which is one of the best formats for processing geo-spatial data. 
 - A simple HTML file is created that calls the Bing Maps API and uses its inbuilt tools to pinpoint people's locations on the map.
 - An Ajax styled implementation will also be able to support real time tracking of the people in the affected regions.
-- A sample code implementing the above
+- The above can be implemented very easily on Bings API by running the below code in a browser and dragging and dropping the GeoJson file 
 ``` HTML
 <!DOCTYPE html>
 <html>
@@ -42,7 +42,7 @@ This allows the model to identify humans in the image whether they are near the 
     var map;
     function GetMap() {
         map = new Microsoft.Maps.Map('#myMap', {
-            zoom: 1
+            zoom: 1vvrsptB0CFs1djE
         });
         //Load the GeoJSON module.
         Microsoft.Maps.loadModule('Microsoft.Maps.GeoJson', function () {
@@ -75,7 +75,7 @@ This allows the model to identify humans in the image whether they are near the 
             };
     }
     </script>
-    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AiBtrty5cK3gR21sYVSZ-iJHeJgRosqigHKW5LrHLtCmMKxN-vvrsptB0CFs1djE' async defer></script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=[API KEY]' async defer></script>
 </head>
 <body>
     <div id="myMap" style="position:relative;width:800px;height:600px;"></div>
