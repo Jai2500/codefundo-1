@@ -192,7 +192,7 @@ The drone of our choice is the DJI M200 Series Quadcopters (specifically the M21
 * Fairly sufficent Payload capability, and support for various other modules. 
 * The camera module Zenmuse Z30 was specically chosen due to its support for very high zoom capability, which is perfect for high altitude flight as well low altitude flight. 
 
-![Drone](https://www.aerialmediapros.com/store/images/product/d/dji-matrice-210-professional-industry-dual-camera-drone-syst-512px-512px.jpg) 
+![Drone](https://www.heliguy.com/downloads/1488190007dji-matrice-210-RTK.jpg) 
 
 ##### The Basic Working Model of the drone
 
